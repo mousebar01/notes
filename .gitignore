@@ -1,0 +1,26 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Local agent/tool state
+.codex/
+.agents/
+
+# Python / script cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
