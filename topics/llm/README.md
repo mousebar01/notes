@@ -7,5 +7,5 @@
 ## 当前笔记
 
 - [DeepSeek HTTP payload 结构](./DeepSeek%20HTTP%20payload%20结构.md)：模型 API 请求中 `messages`、`tools`、控制字段的职责边界。
+- [大模型的 Transformer 架构](./大模型的%20Transformer%20架构.md)：decoder-only Transformer、masked attention 和 softmax 的基本理解。
 - [QLoRA 学习资料](./QLoRA/README.md)：QLoRA / LoRA 的一手论文、官方仓库和官方文档入口。
-

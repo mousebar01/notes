@@ -12,6 +12,11 @@
 
 ## 已下载资料
 
+### 概念笔记
+
+- [LoRA 的概念](./LoRA%20的概念.md)：低秩适配、为什么有效、和 Transformer 注意力层的关系。
+- [QLoRA 的概念](./QLoRA%20的概念.md)：NF4、双重量化、分页优化器和更广的 adapter 覆盖。
+
 ### 论文
 
 - [QLoRA: Efficient Finetuning of Quantized LLMs](./reference/papers/QLoRA-2305.14314.pdf)
@@ -23,6 +28,13 @@
   - 来源：arXiv `2106.09685`
   - 官方页面：https://arxiv.org/abs/2106.09685
   - 重点：低秩适配、冻结原模型权重、只训练少量 adapter 参数。
+
+### 翻译 PDF
+
+- [QLoRA 双语版](./reference/papers/translated-pdfs/QLoRA-2305.14314-dual.pdf)
+- [QLoRA 中文版](./reference/papers/translated-pdfs/QLoRA-2305.14314-mono.pdf)
+- [LoRA 双语版](./reference/papers/translated-pdfs/LoRA-2106.09685-dual.pdf)
+- [LoRA 中文版](./reference/papers/translated-pdfs/LoRA-2106.09685-mono.pdf)
 
 ### 官方仓库 README
 
@@ -70,4 +82,3 @@
 - [ ] 下载 bitsandbytes 官方仓库 README。
 - [ ] 整理一篇“QLoRA 原理笔记”。
 - [ ] 整理一篇“QLoRA 训练配置速查”。
-
