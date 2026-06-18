@@ -1,6 +1,6 @@
 site_name: Notes
 site_description: 个人长期笔记库
-site_url: ""
+site_url: "https://mousebar01.github.io/notes/"
 
 docs_dir: .mkdocs/docs
 site_dir: site

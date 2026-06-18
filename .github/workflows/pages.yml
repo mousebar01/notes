@@ -31,6 +31,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
       - name: Prepare docs directory
         run: python scripts/prepare-mkdocs.py
 
