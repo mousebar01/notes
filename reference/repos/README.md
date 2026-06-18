@@ -6,5 +6,6 @@
 
 ## 当前资料
 
-- [vibe-coding-cn](./vibe-coding-cn/README.md)：AI coding / vibe coding 外部参考项目。
+- `vibe-coding-cn/`：AI coding / vibe coding 外部参考项目。
 
+这个目录当前不纳入 MkDocs 站点正文，避免外部仓库的大量文件影响阅读导航。

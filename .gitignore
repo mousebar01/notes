@@ -24,3 +24,6 @@ tmp/
 temp/
 *.tmp
 
+# MkDocs generated files
+.mkdocs/
+site/

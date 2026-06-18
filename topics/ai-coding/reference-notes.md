@@ -4,7 +4,6 @@
 
 ## 当前资料
 
-- [vibe-coding-cn](../../reference/repos/vibe-coding-cn/README.md)
+- `reference/repos/vibe-coding-cn/`
   - 来源：`tradecatlabs/vibe-coding-cn` 的 `develop` 分支下载副本。
   - 用途：参考它的知识库结构、prompts / skills / tools 分层和目录级 `AGENTS.md` 规则。
-
