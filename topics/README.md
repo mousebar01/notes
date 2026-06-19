@@ -9,6 +9,6 @@
 - [Agent](./agent/README.md)：Agent 上下文、安全、工具边界等通用知识。
 - [LLM](./llm/README.md)：模型 API、payload、微调和推理相关笔记。
 - [AI Coding](./ai-coding/README.md)：AI 编程使用心得和上下文组织。
+- [Learning](./learning/README.md)：学习方法、知识管理、记录复盘和主动输出。
 - [Software Engineering](./software-engineering/README.md)：软件工程、工程设计和排查经验。
 - [Algorithms](./algorithms/README.md)：算法学习和工程实现笔记。
-
