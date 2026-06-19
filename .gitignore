@@ -27,3 +27,5 @@ temp/
 # MkDocs generated files
 .mkdocs/
 site/
+
+private/

@@ -85,6 +85,32 @@ out = prob V
 
 mask 的作用是让未来 token 的注意力权重变成 0。
 
+## Self-Attention 和 Multi-Head Attention
+
+Self-attention 指的是同一段序列内部的 token 彼此计算注意力。
+
+也就是说，`Q`、`K`、`V` 都来自同一个输入序列，只是经过不同的线性变换。它要解决的问题是：当前位置应该从上下文中的哪些位置拿信息。
+
+Multi-head attention 可以先粗略理解为：把隐藏层维度拆成多个 head，每个 head 各自做一遍 self-attention，然后再把结果拼接起来。
+
+这样做的直觉是，不同 head 可以关注不同类型的关系。比如有的 head 更关注局部相邻 token，有的 head 更关注长距离依赖，有的 head 可能更关注语法或结构线索。
+
+一个简化流程是：
+
+```text
+hidden state
+  ↓
+拆成多个 head
+  ↓
+每个 head 分别计算 self-attention
+  ↓
+拼接多个 head 的结果
+  ↓
+线性变换回原来的 hidden size
+```
+
+所以，多头注意力不是多个模型，而是在同一层里让模型从多个子空间并行观察上下文关系。
+
 ## Softmax
 
 Softmax 会把一组任意实数变成一个概率分布。
@@ -160,4 +186,3 @@ exp(S_ij + M_ij) = exp(-inf) = 0
 ```
 
 所以这个位置的注意力权重就是 0。
-
