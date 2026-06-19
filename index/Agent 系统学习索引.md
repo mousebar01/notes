@@ -17,7 +17,7 @@ HTTP payload / messages / tools
   ↓
 工具安全与沙箱
   ↓
-长期项目：Hermes / Mnemo
+长期项目：Hermes
 ```
 
 ## 1. 工程设计基础
@@ -61,7 +61,6 @@ ReAct loop
 
 相关入口：
 
-- [Mnemo](../projects/mnemo/README.md)
 - [聚类算法笔记](../topics/algorithms/clustering/README.md)
 
 关键词：
@@ -77,7 +76,7 @@ RRF
 episode / note / user memory / agent memory
 ```
 
-这里目前只有项目入口和相关算法笔记，后续可以把记忆系统设计逐步沉淀到 `projects/mnemo/`。
+这里目前主要保留相关算法笔记，后续如果继续整理记忆系统，可以沉淀到 `topics/agent/` 或新的专题目录。
 
 ## 4. 安全与沙箱
 
@@ -124,4 +123,3 @@ lease
 dispatcher
 ACP
 ```
-

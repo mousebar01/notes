@@ -41,10 +41,7 @@
 
 - [Hermes](../projects/hermes/README.md)
 - [Hermes Kanban - 多 agent 协作](../projects/hermes/kanban/多agent协作.md)
-- [Mnemo](../projects/mnemo/README.md)
-- [Creative Assistant](../projects/creative-assistant/README.md)
 
 ### 外部资料
 
 - [vibe-coding-cn](../reference/repos/vibe-coding-cn/README.md)
-
