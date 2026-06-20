@@ -149,6 +149,16 @@ const projectsSidebar = [
             ]
           },
           {
+            text: 'Architecture',
+            collapsed: false,
+            items: [
+              { text: 'Architecture 首页', link: '/projects/hermes/architecture/' },
+              { text: 'Agent 工程模式提炼', link: '/projects/hermes/architecture/Hermes Agent 工程模式提炼' },
+              { text: '架构优秀设计提炼', link: '/projects/hermes/architecture/Hermes 架构优秀设计提炼' },
+              { text: '面试八股提炼', link: '/projects/hermes/architecture/Hermes 面试八股提炼' }
+            ]
+          },
+          {
             text: 'Kanban',
             collapsed: true,
             items: [
