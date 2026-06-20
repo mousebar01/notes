@@ -6,9 +6,6 @@ const rootSidebar = [
     items: [
       { text: '首页', link: '/' },
       { text: '索引', link: '/index/' },
-      { text: 'Topics', link: '/topics/' },
-      { text: 'Projects', link: '/projects/' },
-      { text: 'Reference', link: '/reference/' },
       { text: 'Inbox', link: '/inbox/' },
       { text: 'Reviews', link: '/reviews/' },
       { text: 'Archive', link: '/archive/' }
@@ -190,6 +187,13 @@ const inboxSidebar = [
   }
 ]
 
+const siteSidebar = [
+  ...rootSidebar,
+  ...topicsSidebar,
+  ...projectsSidebar,
+  ...referenceSidebar
+]
+
 export default defineConfig({
   title: 'Notes',
   description: '个人长期笔记库',
@@ -222,16 +226,7 @@ export default defineConfig({
       { text: 'Reference', link: '/reference/' },
       { text: 'Inbox', link: '/inbox/' }
     ],
-    sidebar: {
-      '/index/': indexSidebar,
-      '/topics/': topicsSidebar,
-      '/projects/': projectsSidebar,
-      '/reference/': referenceSidebar,
-      '/inbox/': inboxSidebar,
-      '/reviews/': rootSidebar,
-      '/archive/': rootSidebar,
-      '/': rootSidebar
-    },
+    sidebar: siteSidebar,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mousebar01/notes' }
     ],
