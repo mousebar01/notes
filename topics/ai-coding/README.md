@@ -6,9 +6,10 @@
 
 ## 当前笔记
 
-- [AI Coding 的一些初步感想](./AI.md)：AI 编程中的定位、prompt、常见问题和使用范式。
+- [AI Coding 实践心得](./AI%20Coding%20实践心得.md)：AI 编程中的定位、prompt、常见问题和使用范式。
 - [上下文压缩作为渐进式披露机制](./渐进式披露.md)：把上下文压缩理解为“总览 + 可展开线索”的机制。
 
 ## 外部参考
 
 - `reference/repos/vibe-coding-cn/`：外部 AI coding / vibe coding 学习资料。
+- [参考资料笔记](./参考资料笔记.md)：对外部资料和项目风格的零散摘记。

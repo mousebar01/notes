@@ -1,4 +1,4 @@
-# 大模型 Tokenizer 与 Embedding
+# 大模型 Tokenizer 与 Embedding 的关系
 
 大模型不能直接处理自然语言文本。它通常要先经过 tokenizer，把文本切成 token，再映射成 token id，最后由 embedding 层把 token id 变成向量。
 

@@ -3,7 +3,7 @@
 在 nanochat 里：
 
 ```text
-Validation bpb 越低越好
+Validation BPB 越低越好
 ```
 
 它衡量的是：模型平均需要多少 bit 的信息量，才能预测/压缩原始文本里的 1 个 byte。
@@ -20,9 +20,9 @@ bpb 低：模型更懂数据分布，预测更准
 你 smoke run 里看到：
 
 ```text
-Step 00000 | Validation bpb: 3.547557
-Step 00010 | Validation bpb: 3.579815
-Step 00020 | Validation bpb: 3.460436
+Step 00000 | Validation BPB: 3.547557
+Step 00010 | Validation BPB: 3.579815
+Step 00020 | Validation BPB: 3.460436
 ```
 
 说明最后比开始低一点，但因为只训练了 20 步，波动很正常。
@@ -30,7 +30,7 @@ Step 00020 | Validation bpb: 3.460436
 你之后跑 `depth=12`，应该重点看：
 
 ```text
-Validation bpb 是否整体下降
+Validation BPB 是否整体下降
 ```
 
 不用纠结每一次都下降，训练中它会抖；看几十/几百步的趋势。

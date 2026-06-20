@@ -16,6 +16,8 @@ __pycache__/
 
 # Node / VitePress
 node_modules/
+.vitepress/.temp/
+.vitepress/cache/
 
 # Local env / secrets
 .env

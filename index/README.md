@@ -27,7 +27,7 @@
 ### AI Coding / 软件工程
 
 - [AI Coding](../topics/ai-coding/README.md)
-- [AI Coding 的一些初步感想](../topics/ai-coding/AI.md)
+- [AI Coding 实践心得](../topics/ai-coding/AI%20Coding%20实践心得.md)
 - [上下文压缩作为渐进式披露机制](../topics/ai-coding/渐进式披露.md)
 - [Software Engineering](../topics/software-engineering/README.md)
 - [软件工程的一些初步理解](../topics/software-engineering/软件工程.md)
@@ -40,7 +40,7 @@
 ### 项目
 
 - [Hermes](../projects/hermes/README.md)
-- [Hermes Kanban - 多 agent 协作](../projects/hermes/kanban/多agent协作.md)
+- [Hermes Kanban - 多 Agent 协作](../projects/hermes/kanban/多%20Agent%20协作.md)
 
 ### 外部资料
 

@@ -109,7 +109,7 @@ FakeProvider
 相关入口：
 
 - [Hermes](../projects/hermes/README.md)
-- [Hermes Kanban - 多 agent 协作](../projects/hermes/kanban/多agent协作.md)
+- [Hermes Kanban - 多 Agent 协作](../projects/hermes/kanban/多%20Agent%20协作.md)
 
 关键词：
 

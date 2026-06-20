@@ -7,7 +7,7 @@
 如果只想快速理解 Hermes Kanban 和多 Agent 协作，建议按这个顺序：
 
 1. [Agent Swarm 协作方式](./concepts/Agent%20Swarm%20协作方式.md)
-2. [多agent协作](./kanban/多agent协作.md)
+2. [多 Agent 协作](./kanban/多%20Agent%20协作.md)
 3. [Hermes Kanban 核心概念](./kanban/Hermes%20Kanban%20核心概念.md)
 4. [Worker Lane 与任务执行](./kanban/Worker%20Lane%20与任务执行.md)
 5. [Worker 心跳与任务租约](./kanban/Worker%20心跳与任务租约.md)
@@ -43,7 +43,7 @@
 推荐阅读：
 
 - [Agent Swarm 协作方式](./concepts/Agent%20Swarm%20协作方式.md)
-- [多agent协作](./kanban/多agent协作.md)
+- [多 Agent 协作](./kanban/多%20Agent%20协作.md)
 - [Hermes Kanban 核心概念](./kanban/Hermes%20Kanban%20核心概念.md)
 - [Subagent Delegation](./reference/hermes-agent/architecture/subagent-delegation.md)
 
