@@ -57,6 +57,7 @@ const topicsSidebar = [
           { text: 'LLM 首页', link: '/topics/llm/' },
           { text: '大模型的主要部分', link: '/topics/llm/大模型的主要部分' },
           { text: 'Transformer 架构', link: '/topics/llm/大模型的 Transformer 架构' },
+          { text: '手撕注意力机制', link: '/topics/llm/手撕注意力机制' },
           { text: 'DeepSeek HTTP payload', link: '/topics/llm/DeepSeek HTTP payload 结构' },
           {
             text: 'Pretraining',
