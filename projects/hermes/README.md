@@ -16,18 +16,18 @@
 
 如果想继续看 Hermes 整体架构，再读：
 
-1. [项目地图](./reference/hermes-agent/architecture/project-map.md)
-2. [Agent Loop](./reference/hermes-agent/architecture/agent-loop.md)
-3. [Memory System](./reference/hermes-agent/architecture/memory-system.md)
-4. [Context Compression](./reference/hermes-agent/architecture/context-compression.md)
-5. [Tool System](./reference/hermes-agent/architecture/tool-system.md)
-6. [Security and Approval](./reference/hermes-agent/architecture/security-and-approval.md)
+1. `reference/hermes-agent/architecture/project-map.md`
+2. `reference/hermes-agent/architecture/agent-loop.md`
+3. `reference/hermes-agent/architecture/memory-system.md`
+4. `reference/hermes-agent/architecture/context-compression.md`
+5. `reference/hermes-agent/architecture/tool-system.md`
+6. `reference/hermes-agent/architecture/security-and-approval.md`
 
 ## 目录说明
 
 - [kanban/](./kanban/README.md)：围绕 Hermes Kanban、多 Agent 任务协作、worker 执行、任务恢复的中文整理笔记。
 - [concepts/](./concepts/README.md)：概念辨析，例如 Swarm 和 Kanban 的区别。
-- [reference/](./reference/)：从 Hermes / OpenClaw 等项目归档来的参考资料，尽量保留原文，不作为第一阅读入口。
+- `reference/`：从 Hermes / OpenClaw 等项目归档来的参考资料，尽量保留原文，不作为第一阅读入口，也不直接发布到网站正文。
 
 ## 当前主线
 
@@ -45,7 +45,7 @@
 - [Agent Swarm 协作方式](./concepts/Agent%20Swarm%20协作方式.md)
 - [多 Agent 协作](./kanban/多%20Agent%20协作.md)
 - [Hermes Kanban 核心概念](./kanban/Hermes%20Kanban%20核心概念.md)
-- [Subagent Delegation](./reference/hermes-agent/architecture/subagent-delegation.md)
+- `reference/hermes-agent/architecture/subagent-delegation.md`
 
 ### 2. Kanban 执行机制
 
@@ -59,8 +59,8 @@
 
 - [Worker Lane 与任务执行](./kanban/Worker%20Lane%20与任务执行.md)
 - [Worker 心跳与任务租约](./kanban/Worker%20心跳与任务租约.md)
-- [Automation Cron Kanban](./reference/hermes-agent/architecture/automation-cron-kanban.md)
-- [Kanban Worker Lanes 原文](./reference/hermes-agent/kanban/kanban-worker-lanes.md)
+- `reference/hermes-agent/architecture/automation-cron-kanban.md`
+- `reference/hermes-agent/kanban/kanban-worker-lanes.md`
 
 ### 3. 使用场景与部署
 
@@ -74,8 +74,8 @@
 
 - [Kanban 使用场景](./kanban/Kanban%20使用场景.md)
 - [多 Gateway 与 Dispatcher 部署](./kanban/多%20Gateway%20与%20Dispatcher%20部署.md)
-- [Kanban Tutorial 原文](./reference/hermes-agent/kanban/kanban-tutorial.md)
-- [Multi Gateway 原文](./reference/hermes-agent/kanban/multi-gateway.md)
+- `reference/hermes-agent/kanban/kanban-tutorial.md`
+- `reference/hermes-agent/kanban/multi-gateway.md`
 
 ### 4. Hermes 整体架构
 
@@ -87,12 +87,12 @@
 
 推荐阅读：
 
-- [项目地图](./reference/hermes-agent/architecture/project-map.md)
-- [Agent Loop](./reference/hermes-agent/architecture/agent-loop.md)
-- [Memory System](./reference/hermes-agent/architecture/memory-system.md)
-- [Context Compression](./reference/hermes-agent/architecture/context-compression.md)
-- [Tool System](./reference/hermes-agent/architecture/tool-system.md)
-- [Security and Approval](./reference/hermes-agent/architecture/security-and-approval.md)
+- `reference/hermes-agent/architecture/project-map.md`
+- `reference/hermes-agent/architecture/agent-loop.md`
+- `reference/hermes-agent/architecture/memory-system.md`
+- `reference/hermes-agent/architecture/context-compression.md`
+- `reference/hermes-agent/architecture/tool-system.md`
+- `reference/hermes-agent/architecture/security-and-approval.md`
 
 ## 资料来源说明
 

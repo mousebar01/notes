@@ -44,4 +44,5 @@
 
 ### 外部资料
 
-- [vibe-coding-cn](../reference/repos/vibe-coding-cn/README.md)
+- `reference/repos/vibe-coding-cn/`：AI coding / vibe coding 外部参考项目，本地保留原文，网站不直接发布完整仓库。
+- [AI Coding 参考资料笔记](../topics/ai-coding/参考资料笔记.md)

@@ -1,7 +1,7 @@
 ## 研究背景
 “看板驱动的agent”意思是：多个 agent 不是直接互相喊话、互相调用，而是围绕一个共享任务看板来工作。
 
-这篇笔记对照的是 [Hermes Kanban v1 设计文档](../reference/hermes-agent/kanban/hermes-kanban-v1-spec.pdf)。需要注意：这份 PDF 标注为 **Design Only**，也就是说它首先是设计方案，不等于当时已经完整实现的功能。
+这篇笔记对照的是 `reference/hermes-agent/kanban/hermes-kanban-v1-spec.pdf`。需要注意：这份 PDF 标注为 **Design Only**，也就是说它首先是设计方案，不等于当时已经完整实现的功能。
 
 一般的子 Agent 生命周期比较脆弱：它通常依赖父 Agent 的当前上下文和当前进程，一旦父 Agent 结束、上下文被压缩、进程中断，子任务就容易丢失，后续也难以追踪和恢复。
 
