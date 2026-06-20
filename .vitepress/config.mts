@@ -104,6 +104,8 @@ const topicsSidebar = [
         items: [
           { text: '软件工程首页', link: '/topics/software-engineering/' },
           { text: '软件工程', link: '/topics/software-engineering/软件工程' },
+          { text: '架构思维总结', link: '/topics/software-engineering/架构思维总结' },
+          { text: '架构演进关键阶段', link: '/topics/software-engineering/架构演进关键阶段' },
           { text: '工程程序设计经验总结', link: '/topics/software-engineering/工程程序设计经验总结' },
           { text: '日志细节', link: '/topics/software-engineering/日志细节' }
         ]
@@ -182,9 +184,6 @@ const referenceSidebar = [
     text: 'Reference',
     items: [
       { text: 'Reference 首页', link: '/reference/' },
-      { text: 'Articles', link: '/reference/articles/' },
-      { text: 'Docs', link: '/reference/docs/' },
-      { text: 'Papers', link: '/reference/papers/' },
       { text: 'Repos', link: '/reference/repos/' }
     ]
   }
