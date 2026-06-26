@@ -56,6 +56,8 @@ const topicsSidebar = [
           { text: 'Transformer 架构', link: '/topics/llm/大模型的 Transformer 架构' },
           { text: '手撕注意力机制', link: '/topics/llm/手撕注意力机制' },
           { text: 'DeepSeek HTTP payload', link: '/topics/llm/DeepSeek HTTP payload 结构' },
+          { text: '推理流程', link: '/topics/llm/推理流程' },
+          { text: '指令微调 SFT', link: '/topics/llm/指令微调SFT' },
           {
             text: 'Pretraining',
             collapsed: false,
@@ -65,7 +67,8 @@ const topicsSidebar = [
               { text: 'Tokenizer 与 Embedding 的关系', link: '/topics/llm/pretraining/Tokenizer 与 Embedding 的关系' },
               { text: '预训练的自监督形式', link: '/topics/llm/pretraining/预训练的自监督形式' },
               { text: 'nanochat 学习路径', link: '/topics/llm/pretraining/nanochat 预训练学习路径' },
-              { text: 'Validation BPB 指标', link: '/topics/llm/pretraining/Validation BPB 指标' }
+              { text: 'Validation BPB 指标', link: '/topics/llm/pretraining/Validation BPB 指标' },
+              { text: '预训练流程', link: '/topics/llm/pretraining/预训练流程' }
             ]
           },
           {
@@ -75,6 +78,15 @@ const topicsSidebar = [
               { text: 'QLoRA 首页', link: '/topics/llm/QLoRA/' },
               { text: 'QLoRA 的概念', link: '/topics/llm/QLoRA/QLoRA 的概念' },
               { text: 'LoRA 的概念', link: '/topics/llm/QLoRA/LoRA 的概念' }
+            ]
+          },
+          {
+            text: 'GPT-2 源码魔改细节',
+            collapsed: true,
+            items: [
+              { text: '魔改细节首页', link: '/topics/llm/gpt2-source-details/' },
+              { text: 'GPT2源码魔改细节', link: '/topics/llm/gpt2-source-details/GPT2源码魔改细节' },
+              { text: 'KVCache实现原理', link: '/topics/llm/gpt2-source-details/KVCache实现原理' }
             ]
           }
         ]
@@ -107,7 +119,20 @@ const topicsSidebar = [
           { text: '架构思维总结', link: '/topics/software-engineering/架构思维总结' },
           { text: '架构演进关键阶段', link: '/topics/software-engineering/架构演进关键阶段' },
           { text: '工程程序设计经验总结', link: '/topics/software-engineering/工程程序设计经验总结' },
-          { text: '日志细节', link: '/topics/software-engineering/日志细节' }
+          { text: '日志细节', link: '/topics/software-engineering/日志细节' },
+          { text: '数据库基础与 CRUD', link: '/topics/software-engineering/数据库基础与CRUD' },
+          { text: 'SSH 端口转发与代理', link: '/topics/software-engineering/SSH端口转发与代理' },
+          { text: '前后端分离与 Electron 打包', link: '/topics/software-engineering/前后端分离与Electron打包' },
+          {
+            text: 'FastAPI 开发专题',
+            collapsed: true,
+            items: [
+              { text: 'FastAPI 首页', link: '/topics/software-engineering/fastapi/' },
+              { text: 'FastAPI 快速上手', link: '/topics/software-engineering/fastapi/FastAPI快速上手' },
+              { text: 'FastAPI 基础教程', link: '/topics/software-engineering/fastapi/FastAPI基础教程' },
+              { text: 'FastAPI 依赖注入', link: '/topics/software-engineering/fastapi/FastAPI依赖注入' }
+            ]
+          }
         ]
       },
       {
@@ -126,6 +151,26 @@ const topicsSidebar = [
               { text: '其他项目使用的算法', link: '/topics/algorithms/clustering/其他项目使用的算法' }
             ]
           }
+        ]
+      },
+      {
+        text: 'Frontend Design',
+        collapsed: true,
+        items: [
+          { text: '前端设计首页', link: '/topics/frontend-design/' },
+          { text: 'SaaS 控制台设计语言', link: '/topics/frontend-design/SaaS控制台设计语言' },
+          { text: 'UI 设计工程化实践', link: '/topics/frontend-design/UI设计工程化实践' },
+          { text: 'Figma 与 AI 编码协作', link: '/topics/frontend-design/Figma与AI编码协作' },
+          { text: '账号管理界面设计', link: '/topics/frontend-design/账号管理界面设计' }
+        ]
+      },
+      {
+        text: 'Content Creation',
+        collapsed: true,
+        items: [
+          { text: '内容创作首页', link: '/topics/content-creation/' },
+          { text: '图文创作方法论', link: '/topics/content-creation/图文创作方法论' },
+          { text: '视频 AI 创作工作流', link: '/topics/content-creation/视频AI创作工作流' }
         ]
       }
     ]
