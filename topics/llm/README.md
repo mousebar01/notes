@@ -12,3 +12,7 @@
 - [手撕注意力机制](./手撕注意力机制.md)：用 PyTorch 写 causal self-attention、多头注意力和 Transformer Block。
 - [大模型预训练](./pretraining/README.md)：数据格式、tokenizer、dataloader、`x/y` 构造、embedding 和 bpb 指标。
 - [QLoRA 学习资料](./QLoRA/README.md)：QLoRA / LoRA 的一手论文、官方仓库和官方文档入口。
+- [推理流程](./推理流程.md)：LLM 的推理与生成机制，涵盖解码策略、KV Cache、连续 Batching 与流式输出。
+- [指令微调SFT](./指令微调SFT.md)：指令微调（SFT）的原理、特殊 Token 格式、Loss Mask 机制与 Tool Use 雏形。
+- [GPT-2 源码魔改细节](./gpt2-source-details/README.md)：基于特定 GPT-2 源码的魔改特性与优化机制（RoPE, QK Norm, GQA, ReLU² 等）。
+

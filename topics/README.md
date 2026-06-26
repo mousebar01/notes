@@ -12,3 +12,6 @@
 - [Learning](./learning/README.md)：学习方法、知识管理、记录复盘和主动输出。
 - [Software Engineering](./software-engineering/README.md)：软件工程、工程设计和排查经验。
 - [Algorithms](./algorithms/README.md)：算法学习和工程实现笔记。
+- [Frontend Design](./frontend-design/README.md)：前端设计语言、Figma 使用及界面设计经验。
+- [Content Creation](./content-creation/README.md)：自媒体图文与 AI 视频创作流程和复盘。
+
