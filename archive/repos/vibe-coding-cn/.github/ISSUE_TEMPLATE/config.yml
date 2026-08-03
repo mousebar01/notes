@@ -1,0 +1,8 @@
+# .github/ISSUE_TEMPLATE/config.yml
+# 配置 Issue 模板选择器
+
+blank_issues_enabled: true
+contact_links:
+  - name: 🤔 提问与讨论
+    url: https://github.com/tukuaiai/vibe-coding-cn/discussions
+    about: 请使用 GitHub Discussions 进行提问或发起讨论。
